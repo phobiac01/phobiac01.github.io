@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+	<head>
+		<title>ArtRp Central</title>
+		<link rel="stylesheet" href="Stylesheet.css"> 
+		<link rel="icon" type="image/png" href="icon.png">
+		<script src="pace.min.js"></script>
+		<link href="loading.css" rel="stylesheet" />
+	</head>
+	<body>
+	<header><b><code>ArtRp Central Hub</code></b></header>
+		
+		</br></br><div id="myProgress">
+			<div id="myBar"></div>
+		</div>
+		
+		<div class="images">
+		</br>
+		<img width="50%" src="one.jpeg">
+		<img width="50%" src="two.jpg">
+		</br>
+		<img width="50%" src="three.gif">
+		<img width="50%" src="four.jpg">
+		</br>
+		<img width="50%" src="five.jpg">
+		<img width="50%" src="six.jpg">
+		</br>
+		<img width="50%" src="seven.jpg">
+		<img width="50%" src="eight.jpg">
+		</br>
+		<img width="50%" src="nine.jpg">
+		<img width="50%" src="ten.jpg">
+		</br>
+		</div>
+		
+		<script>
+			function move() {
+			  var elem = document.getElementById("myBar");   
+			  var width = 1;
+			  var id = setInterval(frame, 10);
+			  function frame() {
+				if (width >= 100) {
+				  clearInterval(id);
+				} else {
+				  width++; 
+				  elem.style.width = width + '%'; 
+				}
+			  }
+			}
+		</script>
+	<footer><sub><code>Coded by Blue</br>Creative commons &copy 2017</code></sub></footer>
+	</body>
+</html>
