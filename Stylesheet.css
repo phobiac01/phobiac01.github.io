@@ -16,20 +16,16 @@ footer {
 	text-align: center;
 	color: #72f3ff;
 	display: block;
-	position: fixed;
+	position: relative;
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
 	width: 100%;
 	height: 60px;
+	padding-left: 0px;
 }
-#myProgress {
-  width: 100%;
-  background-color: #ddd;
-}
-
 #myBar {
   width: 100%;
   height: 30px;
-  background-color: #4CAF50;
+  background-color: #478dff;
 }
