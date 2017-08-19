@@ -2,30 +2,66 @@ body {
 	background-color: rgb(63, 63, 63);
 }
 header { 
+    width: 100%;
+	height: 60px;
+	position: relative;
 	color: #72f3ff;
-	font-family: Helvetica;
-	text-align: center;
-	font-size: 50px;
 	background-color: rgb(100, 100, 100);
+	font-size: 45px;
 }
 div.images{
 	text-align: center;
 }
 footer {
+	position: relative;
+    width: 100%;
+	height: 60px;
 	background-color: #2d2d2d;
 	text-align: center;
 	color: #72f3ff;
-	display: block;
-	position: relative;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	width: 100%;
-	height: 60px;
-	padding-left: 0px;
 }
 #myBar {
-  width: 100%;
-  height: 30px;
-  background-color: #478dff;
+	width: 100%;
+	height: 30px;
+	background-color: #478dff;
 }
+#loginn {
+	position: right;
+    top: 0px;
+    right: 0px;
+}
+
+.button {
+    background-color: #008CBA; 
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button:hover {
+    background-color: gray; 
+    color: white;
+}
+
+
+
+.btn-group {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+
+.btn-group .button:hover {
+    background-color: gray;
+}
+
